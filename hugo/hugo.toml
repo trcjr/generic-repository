@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://trcjr.github.io/generic-repository/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "hyde"
+title = 'Sample Hugo Site'
+theme = "PaperMod"

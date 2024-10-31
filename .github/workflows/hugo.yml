@@ -25,7 +25,6 @@ concurrency:
 defaults:
   run:
     shell: bash
-    working-directory: ./hugo
 jobs:
   # Build job
   build:
@@ -52,6 +51,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
+        working-directory: ./hugo
         run: |
           hugo \
             --minify \
